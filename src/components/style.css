@@ -1,0 +1,65 @@
+body {
+    font-family: sans-serif;
+}
+  
+.beer-card {
+    width: 250px;
+    height: 350px;
+    margin: 50px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+  
+.beer-card img {
+    width: 80%;
+    height: 80px;
+    object-fit: cover;
+}
+  
+.beer-card h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    align-items: center;
+}
+  
+.beer-card p {
+    margin-top: 10px;
+    font-size: 16px;
+    align-items: center;
+}
+  
+.searchbar {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding: 5px;
+    border: 1px solid #30b5d3;
+    border-radius: 4px;
+}
+  
+.searchbar input {
+    width: 100%;
+    border: none;
+    outline: none;
+}
+  
+.searchbar button {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+}
+  
+.beer-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.beer-list li {
+    list-style:initial;
+}
+  
